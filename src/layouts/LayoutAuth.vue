@@ -1,10 +1,10 @@
 <template>
-  <main class="tw-grid tw-grid-cols-2 tw-min-w-full">
+  <main class="tw-grid tw-grid-cols-2 tw-min-w-full tw-w-full">
     <div class="tw-col-span-1">
       <router-view />
     </div>
-    <div class="tw-mx-auto tw-col-span-1 flex tw-justify-center tw-items-center">
-      <img src="https://cdn.pixabay.com/photo/2023/06/04/15/51/mountains-8040132_1280.jpg" />
+    <div class="tw-mx-auto tw-col-span-1 flex tw-justify-center tw-items-center tw-w-full tw-bg-auth">
+      <img src="../assets/images/women.svg" class="tw-aspect-square" />
     </div>
   </main>
 </template>
