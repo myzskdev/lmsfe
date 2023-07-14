@@ -5,7 +5,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'auth': '#E9EDF7'
+        'primary': '#1E90FF',
+        'secondary': '#E9EDF7',
+        'primary-green': '#5BDE91',
+        // 'outline-dark': '#E1E5EB',
+        'secondary-text': '#5e6775',
       }
     },
   },
